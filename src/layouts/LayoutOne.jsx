@@ -1,5 +1,5 @@
 import React from "react";
-import FooterOne from "../components/Footer/FooterOne";
+import Footer from "../components/Footer/index.tsx";
 import HeaderOne from "../components/Header/HeaderOne";
 import PageLoader from "../components/PageLoader/PageLoader";
 import cn from "classnames";
@@ -13,7 +13,7 @@ const LayoutOne = (props) => {
 
       {props.children}
 
-      <FooterOne />
+      <Footer />
     </div>
   );
 };

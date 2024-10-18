@@ -19,14 +19,14 @@ const WhoWeAre = (props) => {
               <div className="section-title mb-30">
                 <span className="sub-title">Quienes somos?</span>
                 <h2 className="title">
-                  La plataforma <span> Nº1 </span>En libertad financiera
+                  La plataforma <span> Nº1 </span> de bienestar financiero
                 </h2>
               </div>
               <p>
-                Ofrecemos la herramienta más innovadora en bienestar financiero para tus empleados. Permite que accedan a su sueldo ganado en tiempo real, potenciando su felicidad y productividad. Únete a la revolución de la retribución flexible.
+              Ofrece la herramienta más innovadora en bienestar para tus empleados. Permite que accedan a psicólogo online, médico online, cobertura dental, descuentos y acceso al salario ya generado en tiempo real, potenciando su felicidad y productividad.
               </p>
-              <Link to="/" className="btn">
-                Purchase Tokens
+              <Link to="https://calendly.com/payflex/primer-contacto" className="btn">
+                          solicitar para mi empresa
               </Link>
             </div>
           </div>

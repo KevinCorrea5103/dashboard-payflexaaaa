@@ -3,6 +3,9 @@ import img01 from "../../assets/img/partner/cie.webp";
 import img02 from "../../assets/img/partner/microsoft.webp";
 import img03 from "../../assets/img/partner/bcu.webp";
 import img04 from "../../assets/img/partner/ibm.webp";
+import img05 from "../../assets/img/partner/ande.png";
+
+
 
 const TopPartners = () => {
   const partners_list = [
@@ -10,6 +13,7 @@ const TopPartners = () => {
     { src: img02, title: "Microsoft" },
     { src: img03, title: "BCU" },
     { src: img04, title: "IBM" },
+    { src: img05, title: "ANDE" },
   ];
 
   return (
@@ -25,13 +29,33 @@ const TopPartners = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="partner-wrap">
-              <ul className="flex flex-wrap justify-center items-center">
+              <ul style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: '20px', // Añade espacio entre los elementos
+                padding: '-10',
+                listStyle: 'none'
+              }}>
                 {partners_list.map((item, index) => (
-                  <li key={index} className="m-4">
+                  <li key={index} style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    width: '220px', // Ancho fijo para cada elemento
+                    height: '100px' // Altura fija para cada elemento
+                  }}>
                     <img
                       src={item.src}
                       alt={item.title}
-                      className="w-32 h-auto filter brightness-0 invert"
+                      style={{
+                        width: item.title === "IBM" ? "100px" : "auto",
+                        maxWidth: "100%",
+                        maxHeight: "100%",
+                        objectFit: "contain", // Asegura que la imagen se ajuste dentro del contenedor
+                        transition: "0.3s linear",
+                      }}
                     />
                   </li>
                 ))}

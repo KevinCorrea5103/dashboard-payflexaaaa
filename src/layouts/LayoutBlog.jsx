@@ -2,7 +2,7 @@ import React from "react";
 import PageLoader from "../components/PageLoader/PageLoader";
 import cn from "classnames";
 import HeaderTwo from "../components/Header/HeaderTwo";
-import FooterThree from "../components/Footer/FooterThree";
+
 import BlogBreadcrumb from "../components/BlogBreadcrumb/BlogBreadcrumb";
 import BlogAside from "../components/BlogAside/BlogAside";
 
@@ -29,7 +29,7 @@ const LayoutBlog = (props) => {
         </section>
       </main>
 
-      <FooterThree />
+
     </div>
   );
 };

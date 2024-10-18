@@ -18,7 +18,7 @@ const Banner = (props) => {
             <div className="banner-content text-center">
 
               <h2 className="title" style={{ color: "white" }}>
-              Transformar la gestión salarial de tu empresa <span>Cambia Vidas</span> 
+              Transformar el bienestar de tus colaboradores, <span>Cambia Vidas</span> 
               </h2>
             </div>
             <div className="banner-progress-wrap">
