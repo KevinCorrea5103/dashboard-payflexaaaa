@@ -8,7 +8,7 @@ import DownloadArea from "../../components/DownloadArea/DownloadArea";
 import Faq from "../../components/Faq/Faq";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import RoadmapTwo from "../../components/Roadmap/RoadmapTwo";
-import TeamTwo from "../../components/Team/TeamTwo";
+
 import WhyChooseUsTwo from "../../components/WhyChooseUs/WhyChooseUsTwo";
 import LayoutTwo from "../../layouts/LayoutTwo";
 
@@ -23,7 +23,6 @@ const HomeTwo = () => {
         <WhyChooseUsTwo />
         <CounterArea />
         <RoadmapTwo />
-        <TeamTwo />
         <DownloadArea />
         <Faq />
         <ContactTwo />

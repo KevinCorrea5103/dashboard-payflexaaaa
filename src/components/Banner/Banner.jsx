@@ -21,26 +21,7 @@ const Banner = (props) => {
               Transformar el bienestar de tus colaboradores, <span>Cambia Vidas</span> 
               </h2>
             </div>
-            <div className="banner-progress-wrap">
-              <ul>
-                <li>Sin deudas</li>
-                <li>Beneficios</li>
-                <li>libertad financiera</li>
-              </ul>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "75%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                />
-              </div>
-              <h4 className="title" style={{ color: "white" }}>
-                -65% rotatividad 
-              </h4>
-            </div>
+        
           </div>
         </div>
         <div className="row justify-content-center">

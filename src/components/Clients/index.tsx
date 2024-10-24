@@ -11,15 +11,16 @@ const Clients = () => {
                 <div className="flex flex-wrap justify-center">
                     <div className="w-full max-w-5xl">
                     <div className="section-title text-center mb-20">
-              <span className="sub-title">Clientes</span>
-              <h2 className="title">
-                <span>Clientes</span>
-              </h2>
+              
+                    <h2 className="title mt-40">
+          <span>Clientes</span>
+        </h2>
             </div>
                         <div className="bg-white shadow-md rounded-lg p-6">
                             <Slider
-                                width="200px"
+                                width="265px"
                                 duration={40}
+                                marginTop= "0"
                                 pauseOnHover={true}
                                 blurBorders={false}
                                 blurBoderColor={'#fff'}

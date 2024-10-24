@@ -41,7 +41,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contacto</span>
               <h2 className="title">
-                <span>Contacto</span>
+               
               </h2>
             </div>
           </div>
