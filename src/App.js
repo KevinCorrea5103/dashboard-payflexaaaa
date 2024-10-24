@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import WOW from "wow.js";
 import HomeTwo from "./pages/Home/HomeTwo";
 import Blog from "./pages/Blog/Blog";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import BlogDetailsPage from "./pages/BlogDetails/BlogDetailsPage";
 import { useLocation } from "react-router-dom";
 
